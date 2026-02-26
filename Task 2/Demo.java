@@ -5,7 +5,7 @@ public class Demo{
 	s1.regno="FA25-BSE-206";
 	s1.cgpa=3.5;
 	System.out.println("Name: " + s1.name);
-	System.out.println("Registration No. : " + s1.regno);
+	System.out.println("Registration No.: " + s1.regno);
 	System.out.println("CGPA: " + s1.cgpa);
 }
 }
