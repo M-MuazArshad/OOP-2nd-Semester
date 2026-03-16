@@ -13,7 +13,7 @@ public class Screen {
         this.movie = movie;
         seats = new Seat[rowCount][];
         for (int i = 0; i < rowCount; i++) {
-            seats[i] = new Seat[5 + i * 2]; // front rows fewer seats
+            seats[i] = new Seat[5 + i * 2]; 
             for (int j = 0; j < seats[i].length; j++) {
                 seats[i][j] = new Seat(getSeatType(rows[i]), rows[i], j+1);
             }
